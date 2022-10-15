@@ -1,0 +1,14 @@
+{
+  "name": "No restriction modal, Katana",
+  "action": {},
+  "manifest_version": 3,
+  "version": "0.1",
+  "description": "Removes the modal restriction when you click the icon or when tab is loaded after 5 seconds",
+  "permissions": ["contextMenus", "scripting"],
+  "host_permissions": [
+    "*://factory.katanamrp.com/*"
+  ],
+  "background": {
+    "service_worker": "background.js"
+  }
+}
